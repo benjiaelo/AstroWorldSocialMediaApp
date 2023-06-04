@@ -1,0 +1,26 @@
+{
+  "name": "astroworld-social-media-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "cd server && npm start",
+    "client": "cd client && npm start",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benjiaelo/AstroWorldSocialMediaApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benjiaelo/AstroWorldSocialMediaApp/issues"
+  },
+  "homepage": "https://github.com/benjiaelo/AstroWorldSocialMediaApp#readme",
+  "dependencies": {
+    "concurrently": "^8.1.0"
+  }
+}
